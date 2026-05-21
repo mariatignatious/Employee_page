@@ -22,7 +22,7 @@ main{
 
 .sidebar{
     width: 300px;
-    height: 1003px;
+    height: 100%;
 }
 
 .sidebar_content_wrapper{
@@ -62,6 +62,8 @@ main{
 
 .employee_content{
     background-color: #F3F6FA;
+    background-size: cover;
+    height: 100vh;
     width: calc(100% - 300px);
     padding: 15px;
 }
@@ -115,11 +117,16 @@ main{
     margin-top: 5px;
 }
 
+.address{
+    height: 216px;
+    margin: 10px;
+    padding: 10px;
+}
 .address_details1{
     padding: 10px;  
     width: 450px; 
-    height: 72px;
-    margin: 8px;
+    height: 44px;
+    margin-right: 8px;
     background-color: #FAFAFA;
     border-radius: 4px;
     border-color: #C6CDD9;
@@ -131,8 +138,8 @@ main{
 .address_details2{
     padding: 10px;  
     width: 33%; 
-    height: 72px;
-    margin: 10px;
+    height: 44px;
+    margin-right: 10px;
     background-color: #FAFAFA;
     border-radius: 4px;
     border-color: #C6CDD9;
@@ -142,22 +149,21 @@ main{
 }
 
 .upload_label{
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .upload_box{
     width: 460px;
-    height: 36px;
+    height: 44px;
     text-align: right;
-
-    border: 1px solid #D9DCE3;
+    color: #8991A1;
+    border: 1px solid #C6CDD9;
     border-radius: 4px;
-
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     gap: 8px;
-
+    padding-right: 10px;
     background-color: #FAFAFA;
 }
 
