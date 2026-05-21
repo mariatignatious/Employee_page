@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  font-size: 28px;
+  color: lightblue;
+}
+
+.hero_section{
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;   
+}
+
+.image_wrapper{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_wrapper img{
+    max-width: 100%;
+}
+
+.login_section{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login_form_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.logo_wrapper{
+    height: 45px;
+    width: 208.36px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.form_input{
+    height: 50px;
+    border: 1px;
+    width: 456px;
+    border-style: solid;
+    border-color: #B4B7BD;
+    padding-left: 10px;
+}
+
+
+.login_button{
+    align-self: center;
+    background-color: #03AEEE;
+    color: white;
+    width: 456px;
+    padding: 15px 209px 13px 208px;
+}

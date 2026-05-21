@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Employee Details</title>
+</head>
+<body>
+    <header>
+        <img src="kv_logo.png" alt="Logo of KeyValue">
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar_content_wrapper">
+                <div class="icon_wrapper">
+                    <img src="people_icon.png" alt="Icone of people">
+                </div>
+                <div class="sidebar_content">
+                    <p>Employee list</p>
+                </div>
+            </div>
+        </div>
+        <div class="employee_content">
+            <div class="page_header">
+                <h1>Create Employee</h1>
+            </div>
+            <div class="employee_details">
+                    <div class="employee">
+                        <label for="name">Employee Name</label><br>
+                        <input type="text" placeholder="Employee Name">
+                    </div>
+                    <div class="employee">
+                        <label for="name">Employee ID</label><br>
+                        <input type="text" placeholder="Employee ID">
+                    </div>
+                    <div class="employee">
+                        <label for="name">Joining Date</label><br>
+                        <input type="text" placeholder="Joining Date">
+                    </div>
+                    <div class="employee">
+                        <label for="name">Role</label><br>
+                        <select type="text" name="Choose Role">
+                            <option value="option1">Choose Role</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="employee">
+                        <label for="name">Status</label><br>
+                        <select type="text" name="Status">
+                            <option value="option1">Status</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="employee">
+                        <label for="name">Experience</label><br>
+                        <input type="text" placeholder="Experience">
+                    </div>
+                
+                <div class="address">
+                    <label for="address">Address</label><br>
+                    <input class="address_details1" type="text" placeholder="Address"><br>
+                    <input class="address_details2" type="text" placeholder="City">
+                    <input class="address_details2" type="text" placeholder="Country"><br>
+                    <input class="address_details2" type="text" placeholder="Postal Code">
+                </div>
+                <div class="employee">
+                    <label class="upload_label">Upload ID Proof</label>
+
+    <label for="file-upload" class="upload_box">
+
+        <img src="./attach_pin.png" alt="Pin" class="pin_icon">
+
+        <span>Attach files</span>
+
+    </label>
+
+    <input type="file" id="file-upload" hidden>
+      
+                </div>
+
+                <div class="button_group">
+                        <button class="create_button">Create</button>
+                        <button class="cancel_button">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
